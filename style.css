@@ -1,0 +1,107 @@
+.jumbotron {
+    margin: 0px auto;
+    padding: 70px 30px;
+    background-color: #52ACFF;
+    background-image: linear-gradient(315deg, #52ACFF 25%, #FFE32C 100%);
+    color: floralwhite;
+}
+
+.row-header {
+    margin: 0px auto;
+    padding: 0px 0px;
+}
+
+.row-content {
+    margin: 0px auto;
+    padding: 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+
+body {
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+    background-color: #121212;
+}
+
+.navbar-dark {
+    background-color: #121212;
+}
+
+.text {
+    font-family: Lora, serif;
+    font-size: 72px;
+    font-weight: 500;
+    color: #000;
+    text-transform: capitalize;
+    font-style: italic;
+    text-decoration: none;
+    line-height: 1.1em;
+    letter-spacing: 9.9px;
+}
+
+.navbar-nav {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#about,#team {
+    color:floralwhite;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:x-large;
+}
+
+.breadcrumb {
+    margin-bottom: 0;
+    background-color:#121212;
+}
+
+.carousel {
+    background: #121212;
+    margin: auto;
+}
+
+
+.carousel .carousel-item img {
+    width: 100%;
+    margin: auto;
+    height: 100%;
+}
+
+#myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: red;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */
+}
+
+.video {
+    position: relative;
+}

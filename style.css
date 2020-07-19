@@ -45,9 +45,16 @@ body {
     padding-right: 30px;
 }
 
-#about,#team {
+#about{
     color:floralwhite;
     font-family:Arial, Helvetica, sans-serif;
+    font-size:x-large;
+}
+
+#team {
+    font-family:Arial,
+    Helvetica,
+    sans-serif;
     font-size:x-large;
 }
 
@@ -56,17 +63,18 @@ body {
     background-color:#121212;
 }
 
-.carousel {
-    background: #121212;
-    margin: auto;
+.card{
+    width: 18rem;
+    margin:0px 20px 20px 20px;
+    border: 0px solid #000000;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.card:hover {
+    box-shadow: 10px 10px 5px -1px rgba(17, 34, 143, 1);
 }
 
 
-.carousel .carousel-item img {
-    width: 100%;
-    margin: auto;
-    height: 100%;
-}
 
 #myBtn {
     display: none;

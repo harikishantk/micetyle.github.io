@@ -1,269 +1,300 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    
-    <link href="“css\all.css”" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>Micetyle</title>
-  </head>
 
-  <body>
-    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
-      <div class="container">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand mr-auto" href="index.html">
-          <img src="logo.JPG" width="100"
-        /></a>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <div class="navbar-nav mr-auto">
-            <a class="nav-item nav-link active" href="#">Home</a>
-            <a
-              class="nav-item nav-link tooltip-test"
-              href="#about"
-              title="Idiot! It's visible down!!"
-              >About</a
-            >
-            <a
-              class="nav-item nav-link tooltip-test"
-              href="#team"
-              title="WOLF PACK!"
-              >Team</a
-            >
-          </div>
-        </div>
-      </div>
-    </nav>
+  <link href="“css\all.css”" rel="stylesheet" />
+  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="table.js"></script>
+  <title>Micetyle</title>
+</head>
 
-    <header class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <div class="row row-header">
-          <div class="col-12 col-sm-6">
-            <div class="text">
-              <h1>Micetyle</h1>
-              <p>
-                Ithu <br />Enga <br />
-                Style...
-              </p>
-            </div>
-          </div>
-          <div class="align-self-center video">
-            <iframe
-              width="420"
-              height="345"
-              src="https://www.youtube.com/embed/videoseries?list=PLSgTOEiy-VTMPZOYi-4wNPtrjVn1eIUgh"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-        </div>
-      </div>
-    </header>
+<body>
+  <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
     <div class="container">
-      <div class="row row-content">
-        <div class="col">
-          <div id="about">
-            <header>
-              <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">
-                    About
-                  </li>
-                </ol>
-              </nav>
-            </header>
-            <b>Micetyle</b> is a team of ambitious younger people who are
-            willing to bring people with talents to the internet audience.We are
-            not money minded.Some of us were not given chance to prove ourselves
-            during our childhood,so after creating decent YouTube Channel, we
-            are now trying to help talented people who have not given chance to
-            prove themselves. Mice means plural mouse.We are acting individually
-            on our own, we would not reach higher goals. But together as a
-            team,we will be able to achieve things that seem impossible to
-            others.
-          </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand mr-auto" href="index.html">
+        <img class="doubleClickLogo" src="assets/images/logo.JPG" width="200" /></a>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="navbar-nav mr-auto">
+          <a class="nav-item nav-link active" href="#">Home</a>
+          <a class="nav-item nav-link tooltip-test" href="#about" title="Idiot! It's visible down!!">About</a>
+          <a class="nav-item nav-link tooltip-test" href="#team" title="WOLF PACK!">Team</a>
+          <a class="nav-item nav-link tooltip-test" href="#gaming" title="MICETYLE DOUBLE-CLICK">Gaming</a>
         </div>
       </div>
     </div>
+  </nav>
+
+  <header class="jumbotron jumbotron-fluid jumbotron-background">
     <div class="container">
-      <div class="row row-content">
-        <div class="col">
-          <div id="team">
-            <header>
-              <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">
-                    Team
-                  </li>
-                </ol>
-              </nav>
-            </header>
-            <div class="row">
-              <div class="card">
-                <a href="https://www.instagram.com/ratones.artisticos/?hl=en" target="_blank"><img class="card-img-top" src="harshith1.jpeg" alt="Harshith Raj" /></a>
-              
-                <div class="card-body">
-                  <p class="card-text">Harshith Raj</p>
-                </div>
-              </div>
-              <div class="card">
-                <a href="https://www.instagram.com/hareesh_2001/?hl=en" target="_blank"><img class="card-img-top" src="hareeshwaran.jpeg" alt="Hareeshwaran" /></a>
-              
-                <div class="card-body">
-                  <p class="card-text">Hareeshwaran</p>
-                </div>
-              </div>
-              <div class="card">
-                <a href="" target="_blank"
-                  ><img class="card-img-top" src="brajesha.jpeg" alt="Brajesha"
-                /></a>
-
-                <div class="card-body">
-                  <p class="card-text">Brajesha</p>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="card">
-                <a
-                  href="https://www.instagram.com/xxiamsaiyanxx/?hl=en"
-                  target="_blank"
-                  ><img
-                    class="card-img-top"
-                    src="Harikishan.png"
-                    alt="Harikishan"
-                /></a>
-                <div class="card-body">
-                  <p class="card-text">Harikishan</p>
-                </div>
-              </div>
-              <div class="card">
-                <a href="" target="_blank"
-                  ><img
-                    class="card-img-top"
-                    src="Balachander.jpeg"
-                    alt="Balachander"
-                /></a>
-
-                <div class="card-body">
-                  <p class="card-text">Balachander</p>
-                </div>
-              </div>
-              <div class="card">
-                <a
-                  href="https://www.instagram.com/fozzy_lucifer/?hl=en"
-                  target="_blank"
-                  ><img class="card-img-top" src="suvan.jpeg" alt="Suvan"
-                /></a>
-
-                <div class="card-body">
-                  <p class="card-text">Suvan</p>
-                </div>
-              </div>
-            </div>
+      <div class="row row-header">
+        <div class="col-12 col-sm-6">
+          <div class="text">
+            <h1>NEW CHANNEL FOR GAMING!!</h1>
+            <p>
+              <a href="https://www.youtube.com/channel/UCe9S4OB5hy4CMtRsmZk9eiw" target="blank">
+                <img alt="micetyle-doubleClick-logo" class="doubleClickLogo" src="assets/images/micetyle-double-click.jpeg" height="150" width="400"></a>
+            </p>
           </div>
+        </div>
+        <div class="align-self-center video">
+          <iframe width="420" height="325" src="https://www.youtube.com/embed/fNRd6EpYO5E" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
     </div>
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-    <!-- Footer -->
-    <footer class="page-footer pt-4">
-      <!-- Footer Elements -->
-      <div class="container">
-        <!-- Social buttons -->
-        <ul class="list-unstyled list-inline text-center">
-          <li class="list-inline-item">
-            <a class="btn-floating btn-fb mx-1">
-              <i class="fa fa-facebook"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a class="btn-floating btn-tw mx-1">
-              <i class="fa fa-instagram"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a class="btn-floating btn-gplus mx-1">
-              <i class="fab fa-youtube"> </i>
-            </a>
-          </li>
-        </ul>
-        <!-- Social buttons -->
+  </header>
+  <div class="container" id="about">
+    <div class="row row-content">
+      <div class="col">
+          <header>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  About
+                </li>
+              </ol>
+            </nav>
+          </header>
+          <b>Micetyle</b> is a team of ambitious younger people who are
+          willing to bring people with talents to the internet audience.We are
+          not money minded.Some of us were not given chance to prove ourselves
+          during our childhood,so after creating decent YouTube Channel, we
+          are now trying to help talented people who have not given chance to
+          prove themselves. Mice means plural mouse.We are acting individually
+          on our own, we would not reach higher goals. But together as a
+          team,we will be able to achieve things that seem impossible to
+          others.
       </div>
-      <!-- Footer Elements -->
+    </div>
+  </div>
+  <div class="container" id="team">
+    <div class="row row-content">
+      <div class="col">
+          <header>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  Team
+                </li>
+              </ol>
+            </nav>
+          </header>
+          <div id="table">
 
-      <!-- Copyright -->
-      <div class="footer-copyright text-center py-3" style="color: white;">
-        © 2020 Copyright: Micetyle
+          </div>
+          <div class="row">
+            <div class="card">
+              <a href="https://www.instagram.com/ratones.artisticos/?hl=en" target="_blank"><img class="card-img-top"
+                  src="assets/images/harshith1.jpeg" alt="Harshith Raj" /></a>
+
+              <div class="card-body">
+                <p class="card-text">Harshith Raj</p>
+              </div>
+            </div>
+            <div class="card">
+              <a href="https://www.instagram.com/hareesh_2001/?hl=en" target="_blank"><img class="card-img-top"
+                  src="assets/images/hareeshwaran.jpeg" alt="Hareeshwaran" /></a>
+
+              <div class="card-body">
+                <p class="card-text">Hareeshwaran</p>
+              </div>
+            </div>
+            <div class="card">
+              <a href="" target="_blank"><img class="card-img-top" src="assets/images/brajesha.jpeg" alt="Brajesha" /></a>
+
+              <div class="card-body">
+                <p class="card-text">Brajesha</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="card">
+              <a href="https://www.instagram.com/xxiamsaiyanxx/?hl=en" target="_blank"><img class="card-img-top"
+                  src="assets/images/Harikishan.png" alt="Harikishan" /></a>
+              <div class="card-body">
+                <p class="card-text">Harikishan TK</p>
+              </div>
+            </div>
+            <div class="card">
+              <a href="" target="_blank"><img class="card-img-top" src="assets/images/Balachander.jpeg" alt="Balachander" /></a>
+
+              <div class="card-body">
+                <p class="card-text">Balachander</p>
+              </div>
+            </div>
+            <div class="card">
+              <a href="https://www.instagram.com/fozzy_lucifer/?hl=en" target="_blank"><img class="card-img-top"
+                  src="assets/images/suvan.jpeg" alt="Suvan" /></a>
+
+              <div class="card-body">
+                <p class="card-text">Suvan</p>
+              </div>
+            </div>
+          </div>
       </div>
-      <!-- Copyright -->
-      <!-- Easter Egg-->
-      <div class="container-fluid"></div>
-    </footer>
-    <!-- Footer -->
+    </div>
+  </div>
+  <div class="container" id="gaming">
+    <div class="row row-content">
+      <div class="col">
+          <header>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  Gaming
+                </li>
+              </ol>
+            </nav>
+          </header>
+          <div>
+            <p>
+              Gaming is the one of the blooming field in and around the globe. No one predicted that it would be profit
+              for students and industries. But now, so many industries invested and get full profit in this gaming
+              industry a.k.a E-Sports. Micetyle with 2.17K grateful of subscribers is now proud to announce its first
+              branch in E-Sports named "MICETYLE DOUBLE-CLICK".This is our first initiative in formation of team to help
+              out each gamers to reach out their goals.
+            </p>
+          </div>
 
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"
-    ></script>
-    <script>
-      //Get the button:
-      mybutton = document.getElementById("myBtn");
+          <div class="row">
+            <div class="card">
+              <a href="https://www.instagram.com/josephrithvik/?hl=en" target="_blank"><img class="card-img-top"
+                  src="assets/images/joseph.png" alt="Joseph Rithvik" /></a>
 
-      // When the user scrolls down 20px from the top of the document, show the button
-      window.onscroll = function () {
-        scrollFunction();
-      };
+              <div class="card-body">
+                <p class="card-text">Joseph Rithvik</p>
+              </div>
+            </div>
+            <div class="card">
+              <a href="https://www.instagram.com/_c.a.t.s.u_/?hl=en" target="_blank"><img class="card-img-top"
+                  src="assets/images/vijay.png" alt="Vijay Raj" /></a>
 
-      function scrollFunction() {
-        if (
-          document.body.scrollTop > 20 ||
-          document.documentElement.scrollTop > 20
-        ) {
-          mybutton.style.display = "block";
-        } else {
-          mybutton.style.display = "none";
-        }
+              <div class="card-body">
+                <p class="card-text">Vijay Raj</p>
+              </div>
+            </div>
+            <div class="card">
+              <a href="https://www.instagram.com/mehhnav/?hl=en" target="_blank"><img class="card-img-top" src="assets/images/manav.jpg" alt="Manav" /></a>
+
+              <div class="card-body">
+                <p class="card-text">Manav</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="card">
+              <a href="#" target="_blank"><img class="card-img-top"
+                  src="assets/images/shaan.jpeg" alt="Shaan" /></a>
+              <div class="card-body">
+                <p class="card-text">Shaan</p>
+              </div>
+            </div>
+            <div class="card">
+              <a href="https://www.instagram.com/onasismelchior/" target="_blank"><img class="card-img-top"
+                  src="assets/images/onasis.jpg" alt="Onasis" /></a>
+              <div class="card-body">
+                <p class="card-text">Onasis Melchior</p>
+              </div>
+            </div>
+            <div class="card">
+              <a href="https://www.instagram.com/rvittal44/n" target="_blank"><img class="card-img-top"
+                  src="assets/images/rvittal.jpg" alt="Rahul" /></a>
+              <div class="card-body">
+                <p class="card-text">Rahul Vittal Rao</p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  <!-- Footer -->
+  <footer class="page-footer pt-4 text-center">
+    <!-- Footer Elements -->
+    <!-- <div class="container"> -->
+      <!-- Social buttons -->
+      <!-- <ul class="list-unstyled list-inline text-center">
+        <li class="list-inline-item">
+          <a class="btn-floating btn-fb mx-1">
+            <i class="fa fa-facebook"></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-tw mx-1">
+            <i class="fa fa-instagram"></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-gplus mx-1">
+            <i class="fab fa-youtube"> </i>
+          </a>
+        </li> -->
+      </ul>
+      <!-- Social buttons -->
+    <!-- </div> -->
+    <!-- Footer Elements -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">
+      <div class="box">
+        <div class="border-gradient">
+          Created by Harikishan TK
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer -->
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+  </script>
+  <script>
+    //Get the button:
+    mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+      scrollFunction();
+    };
+
+    function scrollFunction() {
+      if (
+        document.body.scrollTop > 20 ||
+        document.documentElement.scrollTop > 20
+      ) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
       }
+    }
 
-      // When the user clicks on the button, scroll to the top of the document
-      function topFunction() {
-        document.body.scrollTop = 0; // For Safari
-        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-      }
-    </script>
-  </body>
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+  </script>
+</body>
+
 </html>
